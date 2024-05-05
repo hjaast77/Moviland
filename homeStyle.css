@@ -1,0 +1,26 @@
+.nav__search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.nav__search input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 4px;
+}
+
+.nav__search input[type="submit"] {
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav__search input[type="submit"]:hover {
+    background-color: #45a049;
+}
