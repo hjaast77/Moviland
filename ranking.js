@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded', function () {
         secMias.classList.add('section--hidden');
         botonTodas.classList.add('todasSelect');
         botonMisPelis.classList.remove('misPelisSelect');
+
+        const headerTitle = document.querySelector('.header__title h1');
+        headerTitle.textContent = 'QUE MIRA EL RESTO';
     });
 
     botonMisPelis.addEventListener('click', function () {
@@ -16,5 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
         secTodas.classList.add('section--hidden');
         botonMisPelis.classList.add('misPelisSelect');
         botonTodas.classList.remove('todasSelect');
+
+        const headerTitle = document.querySelector('.header__title h1');
+        headerTitle.textContent = 'TUS PELIS FAVORITAS';
     });
 });
