@@ -934,6 +934,10 @@ form button {
     display: none;
   }
 
+  .features__img.img--visible {
+    display: block;
+  }
+
   .section__header {
     font-size: 5vw;
     max-width: 100vw;
